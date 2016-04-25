@@ -49,6 +49,14 @@
             this.AdditionalTab = new DevExpress.XtraTab.XtraTabPage();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.settingsTabControl)).BeginInit();
             this.settingsTabControl.SuspendLayout();
             this.UsersTab.SuspendLayout();
@@ -57,6 +65,11 @@
             this.TrainingTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trainingsGridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.AdditionalTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // settingsTabControl
@@ -69,7 +82,7 @@
             this.settingsTabControl.Location = new System.Drawing.Point(0, 0);
             this.settingsTabControl.Name = "settingsTabControl";
             this.settingsTabControl.SelectedTabPage = this.UsersTab;
-            this.settingsTabControl.Size = new System.Drawing.Size(722, 302);
+            this.settingsTabControl.Size = new System.Drawing.Size(656, 254);
             this.settingsTabControl.TabIndex = 0;
             this.settingsTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.UsersTab,
@@ -83,13 +96,13 @@
             this.UsersTab.Controls.Add(this.aaddTesteeButton);
             this.UsersTab.Controls.Add(this.usersGridControl);
             this.UsersTab.Name = "UsersTab";
-            this.UsersTab.Size = new System.Drawing.Size(655, 296);
+            this.UsersTab.Size = new System.Drawing.Size(589, 248);
             this.UsersTab.Text = "Users";
             // 
             // simpleButton1
             // 
             this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton1.Location = new System.Drawing.Point(577, 251);
+            this.simpleButton1.Location = new System.Drawing.Point(511, 203);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 4;
@@ -98,7 +111,7 @@
             // simpleButton2
             // 
             this.simpleButton2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.simpleButton2.Location = new System.Drawing.Point(336, 261);
+            this.simpleButton2.Location = new System.Drawing.Point(303, 213);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 2;
@@ -107,7 +120,7 @@
             // aaddTesteeButton
             // 
             this.aaddTesteeButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.aaddTesteeButton.Location = new System.Drawing.Point(246, 261);
+            this.aaddTesteeButton.Location = new System.Drawing.Point(213, 213);
             this.aaddTesteeButton.Name = "aaddTesteeButton";
             this.aaddTesteeButton.Size = new System.Drawing.Size(75, 23);
             this.aaddTesteeButton.TabIndex = 1;
@@ -122,7 +135,7 @@
             this.usersGridControl.Location = new System.Drawing.Point(0, 0);
             this.usersGridControl.MainView = this.userView;
             this.usersGridControl.Name = "usersGridControl";
-            this.usersGridControl.Size = new System.Drawing.Size(655, 245);
+            this.usersGridControl.Size = new System.Drawing.Size(589, 197);
             this.usersGridControl.TabIndex = 0;
             this.usersGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.userView});
@@ -180,13 +193,13 @@
             this.TrainingTab.Controls.Add(this.simpleButton6);
             this.TrainingTab.Controls.Add(this.trainingsGridControl);
             this.TrainingTab.Name = "TrainingTab";
-            this.TrainingTab.Size = new System.Drawing.Size(655, 296);
+            this.TrainingTab.Size = new System.Drawing.Size(589, 248);
             this.TrainingTab.Text = "Training";
             // 
             // simpleButton5
             // 
             this.simpleButton5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.simpleButton5.Location = new System.Drawing.Point(336, 261);
+            this.simpleButton5.Location = new System.Drawing.Point(303, 213);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(75, 23);
             this.simpleButton5.TabIndex = 5;
@@ -195,7 +208,7 @@
             // simpleButton6
             // 
             this.simpleButton6.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.simpleButton6.Location = new System.Drawing.Point(246, 261);
+            this.simpleButton6.Location = new System.Drawing.Point(213, 213);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.Size = new System.Drawing.Size(75, 23);
             this.simpleButton6.TabIndex = 4;
@@ -209,7 +222,7 @@
             this.trainingsGridControl.Location = new System.Drawing.Point(0, 0);
             this.trainingsGridControl.MainView = this.gridView1;
             this.trainingsGridControl.Name = "trainingsGridControl";
-            this.trainingsGridControl.Size = new System.Drawing.Size(655, 245);
+            this.trainingsGridControl.Size = new System.Drawing.Size(589, 197);
             this.trainingsGridControl.TabIndex = 1;
             this.trainingsGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -230,14 +243,22 @@
             // 
             // AdditionalTab
             // 
+            this.AdditionalTab.Controls.Add(this.labelControl4);
+            this.AdditionalTab.Controls.Add(this.labelControl3);
+            this.AdditionalTab.Controls.Add(this.labelControl2);
+            this.AdditionalTab.Controls.Add(this.labelControl1);
+            this.AdditionalTab.Controls.Add(this.textEdit4);
+            this.AdditionalTab.Controls.Add(this.textEdit3);
+            this.AdditionalTab.Controls.Add(this.textEdit2);
+            this.AdditionalTab.Controls.Add(this.textEdit1);
             this.AdditionalTab.Name = "AdditionalTab";
-            this.AdditionalTab.Size = new System.Drawing.Size(655, 318);
+            this.AdditionalTab.Size = new System.Drawing.Size(589, 248);
             this.AdditionalTab.Text = "Additional";
             // 
             // simpleButton3
             // 
             this.simpleButton3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.simpleButton3.Location = new System.Drawing.Point(308, 308);
+            this.simpleButton3.Location = new System.Drawing.Point(275, 260);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(75, 23);
             this.simpleButton3.TabIndex = 2;
@@ -246,21 +267,81 @@
             // simpleButton4
             // 
             this.simpleButton4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.simpleButton4.Location = new System.Drawing.Point(398, 308);
+            this.simpleButton4.Location = new System.Drawing.Point(365, 260);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(75, 23);
             this.simpleButton4.TabIndex = 3;
             this.simpleButton4.Text = "Cancel All";
             // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(130, 61);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(46, 13);
+            this.labelControl4.TabIndex = 18;
+            this.labelControl4.Text = "password";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(130, 27);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(22, 13);
+            this.labelControl3.TabIndex = 17;
+            this.labelControl3.Text = "login";
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(375, 61);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(82, 13);
+            this.labelControl2.TabIndex = 16;
+            this.labelControl2.Text = "Question amount";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(375, 27);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(95, 13);
+            this.labelControl1.TabIndex = 15;
+            this.labelControl1.Text = "Question frequency";
+            // 
+            // textEdit4
+            // 
+            this.textEdit4.Location = new System.Drawing.Point(267, 58);
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Size = new System.Drawing.Size(100, 20);
+            this.textEdit4.TabIndex = 14;
+            // 
+            // textEdit3
+            // 
+            this.textEdit3.Location = new System.Drawing.Point(24, 58);
+            this.textEdit3.Name = "textEdit3";
+            this.textEdit3.Size = new System.Drawing.Size(100, 20);
+            this.textEdit3.TabIndex = 13;
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.Location = new System.Drawing.Point(267, 24);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Size = new System.Drawing.Size(100, 20);
+            this.textEdit2.TabIndex = 12;
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(24, 24);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(100, 20);
+            this.textEdit1.TabIndex = 11;
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(722, 341);
+            this.ClientSize = new System.Drawing.Size(656, 293);
             this.Controls.Add(this.simpleButton4);
             this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.settingsTabControl);
-            this.MinimumSize = new System.Drawing.Size(16, 300);
+            this.MinimumSize = new System.Drawing.Size(660, 300);
             this.Name = "SettingsForm";
             this.Text = "Settings";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -272,6 +353,12 @@
             this.TrainingTab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.trainingsGridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.AdditionalTab.ResumeLayout(false);
+            this.AdditionalTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -299,6 +386,14 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit textEdit1;
 
     }
 }
